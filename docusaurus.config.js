@@ -47,15 +47,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/unitedprogressparty/firstpub-Platform/tree/main/website/docs/',
-        },
-        docs: {
-          routeBasePath: '/', // Serve docs from the base URL
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/unitedprogressparty/firstpub-Platform/tree/main/website/docs/',
+            'https://github.com/unitedprogressparty/firstpub-Platform/tree/main/',
         },
         blog: {
           showReadingTime: true,
