@@ -1,5 +1,5 @@
 ---
-title: "- EO 14303 Restoring Gold Standard Science"
+title: "EO 14303 Restoring Gold Standard Science"
 ---
 
 

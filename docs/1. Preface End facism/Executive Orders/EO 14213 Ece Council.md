@@ -1,5 +1,5 @@
 ---
-title: "- EO 14213 Establishing the National Energy Dominance Council"
+title: "EO 14213 Establishing the National Energy Dominance Council"
 ---
 
 

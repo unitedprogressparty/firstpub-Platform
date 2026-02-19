@@ -1,5 +1,5 @@
 ---
-title: "- EO 14299 Deploying Advanced Nuclear Reactor Technologies for National Security"
+title: "EO 14299 Deploying Advanced Nuclear Reactor Technologies for National Security"
 ---
 
 

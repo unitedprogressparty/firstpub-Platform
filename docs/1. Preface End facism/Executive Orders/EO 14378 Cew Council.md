@@ -1,5 +1,5 @@
 ---
-title: "- EO 14378 Continuance of the Federal Emergency Management Agency Review Council"
+title: "EO 14378 Continuance of the Federal Emergency Management Agency Review Council"
 ---
 
 

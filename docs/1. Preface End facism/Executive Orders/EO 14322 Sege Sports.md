@@ -1,5 +1,5 @@
 ---
-title: "- EO 14322 Saving College Sports"
+title: "EO 14322 Saving College Sports"
 ---
 
 

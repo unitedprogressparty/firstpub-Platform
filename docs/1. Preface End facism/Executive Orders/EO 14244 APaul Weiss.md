@@ -1,5 +1,5 @@
 ---
-title: "- EO 14244 Addressing Remedial Action by Paul Weiss"
+title: "EO 14244 Addressing Remedial Action by Paul Weiss"
 ---
 
 

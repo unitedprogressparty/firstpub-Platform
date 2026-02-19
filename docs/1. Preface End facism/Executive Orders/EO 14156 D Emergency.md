@@ -1,5 +1,5 @@
 ---
-title: "- EO 14156 Declaring a National Energy Emergency"
+title: "EO 14156 Declaring a National Energy Emergency"
 ---
 
 

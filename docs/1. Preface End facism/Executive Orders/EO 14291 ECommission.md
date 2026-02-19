@@ -1,5 +1,5 @@
 ---
-title: "- EO 14291 Establishment of the Religious Liberty Commission"
+title: "EO 14291 Establishment of the Religious Liberty Commission"
 ---
 
 

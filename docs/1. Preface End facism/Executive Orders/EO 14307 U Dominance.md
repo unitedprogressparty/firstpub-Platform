@@ -1,5 +1,5 @@
 ---
-title: "- EO 14307 Unleashing American Drone Dominance"
+title: "EO 14307 Unleashing American Drone Dominance"
 ---
 
 

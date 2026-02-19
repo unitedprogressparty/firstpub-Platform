@@ -1,5 +1,5 @@
 ---
-title: "- EO 14332 Improving Oversight of Federal Grantmaking"
+title: "EO 14332 Improving Oversight of Federal Grantmaking"
 ---
 
 

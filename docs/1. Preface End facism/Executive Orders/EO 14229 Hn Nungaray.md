@@ -1,5 +1,5 @@
 ---
-title: "- EO 14229 Honoring Jocelyn Nungaray"
+title: "EO 14229 Honoring Jocelyn Nungaray"
 ---
 
 

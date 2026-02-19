@@ -1,5 +1,5 @@
 ---
-title: "- EO 14284 Strengthening Probationary Periods in the Federal Service"
+title: "EO 14284 Strengthening Probationary Periods in the Federal Service"
 ---
 
 

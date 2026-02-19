@@ -1,5 +1,5 @@
 ---
-title: "- EO 14202 Eradicating Anti-Christian Bias"
+title: "EO 14202 Eradicating Anti-Christian Bias"
 ---
 
 

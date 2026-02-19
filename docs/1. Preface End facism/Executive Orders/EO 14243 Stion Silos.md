@@ -1,5 +1,5 @@
 ---
-title: "- EO 14243 Stopping Waste, Fraud, and Abuse by Eliminating Information Silos"
+title: "EO 14243 Stopping Waste, Fraud, and Abuse by Eliminating Information Silos"
 ---
 
 

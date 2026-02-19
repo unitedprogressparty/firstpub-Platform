@@ -1,5 +1,5 @@
 ---
-title: "- EO 14183 Prioritizing Military Excellence and Readiness"
+title: "EO 14183 Prioritizing Military Excellence and Readiness"
 ---
 
 
