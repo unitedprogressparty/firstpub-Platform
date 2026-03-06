@@ -4,6 +4,10 @@ on:
     branches:
       - main # Or the branch you want to deploy from
 
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: false
+
 permissions:
   contents: write
   pages: write
