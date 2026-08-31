@@ -1,4 +1,3 @@
-// Triggering deployment
 // @ts-check
 // `@type` JSDoc annotations allow editor autocompletion and type checking
 // (when paired with `@ts-check`).
@@ -9,29 +8,23 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const partyHome = 'https://unitedprogressparty.com/';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'United Progress Party',
+  tagline: 'A public home for participation, policy, and practical progress.',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
   url: 'https://unitedprogressparty.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/firstpub-Platform/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'unitedprogressparty', // Usually your GitHub org/user name.
-  projectName: 'firstpub-Platform', // Usually your repo name.
+  organizationName: 'unitedprogressparty',
+  projectName: 'firstpub-Platform',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -44,8 +37,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/unitedprogressparty/firstpub-Platform/tree/main/',
         },
@@ -60,20 +51,35 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        title: 'United Progress Party',
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Platform',
+          },
+          {
+            to: '/docs/Big Changes',
+            label: 'Big Changes',
+            position: 'left',
+          },
+          {
+            to: '/docs/Foreign Policy/Philosophy, Vision',
+            label: 'Vision',
+            position: 'left',
+          },
+          {
+            to: '/docs/Preface End facism/Priority is to win back congress/How to win',
+            label: 'How to win',
+            position: 'left',
+          },
+          {
+            href: partyHome,
+            label: 'Party home',
+            position: 'right',
           },
           {
             href: 'https://github.com/unitedprogressparty/firstpub-Platform',
@@ -86,34 +92,33 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Start here',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Big Changes',
+                to: '/docs/Big Changes',
+              },
+              {
+                label: 'Vision',
+                to: '/docs/Foreign Policy/Philosophy, Vision',
+              },
+              {
+                label: 'How to win',
+                to: '/docs/Preface End facism/Priority is to win back congress/How to win',
+              },
+              {
+                label: 'Full outline',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'The party',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'unitedprogressparty.com',
+                href: partyHome,
               },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
                 label: 'GitHub',
                 href: 'https://github.com/unitedprogressparty/firstpub-Platform',
@@ -121,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `United Progress Party`,
       },
       prism: {
         theme: prismThemes.github,

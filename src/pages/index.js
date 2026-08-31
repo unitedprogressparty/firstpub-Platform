@@ -10,19 +10,35 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={styles.heroBanner}>
       <div className="container">
+        <p className={styles.kicker}>UNITED PROGRESS PARTY</p>
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className={clsx('hero__subtitle', styles.lede)}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
+            className="button button--primary button--lg"
+            to="/docs/Big Changes">
+            Big Changes
+          </Link>
+          <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/docs/Foreign Policy/Philosophy, Vision">
+            Vision
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/Preface End facism/Priority is to win back congress/How to win">
+            How to win
           </Link>
         </div>
+        <p className={styles.lede} style={{marginTop: '1.5rem'}}>
+          <Link to="https://unitedprogressparty.com/">
+            Party home — unitedprogressparty.com
+          </Link>
+        </p>
       </div>
     </header>
   );
@@ -31,9 +47,7 @@ function HomepageHeader() {
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+    <Layout description={siteConfig.tagline}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
