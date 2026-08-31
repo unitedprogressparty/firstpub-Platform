@@ -11,8 +11,8 @@ Empty pages are not leftovers. They are topics we will fill. Do not treat a blan
 
 Start with the pages already written:
 
-- [Big Changes](./2. Big Changes.md)
-- [Vision](./5. Foreign Policy/2. Philosophy, Vision.md)
-- [How to win](./1. Preface End facism/2. Priority is to win back congress/2. How to win.md)
+- [Big Changes](/docs/Big%20Changes)
+- [Vision](/docs/Foreign%20Policy/Philosophy,%20Vision)
+- [How to win](/docs/Preface%20End%20facism/Priority%20is%20to%20win%20back%20congress/How%20to%20win)
 
 The public front door is [unitedprogressparty.com](https://unitedprogressparty.com/). This outline sits behind that door.
