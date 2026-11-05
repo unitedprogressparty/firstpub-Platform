@@ -143,8 +143,29 @@ The ledger itemizes lethal force incidents, in-custody deaths, military strikes,
 
 ---
 
-## 5. Next Steps for Downstream Consuming Systems
+## 5. Downstream Deliverables & Production Deployment
 
-1. **REST / GraphQL API Layer:** Expose `damage_ledger.db` via a FastAPI or Datasette microservice for real-time querying by policy researchers.
-2. **Automated Continuous Ingestion:** Set up scheduled GitHub Actions running the scraper suite daily with incremental timestamp filtering (`last_scraped_at`).
-3. **Transition Team Undo Dossiers:** Generate PDF briefing binders grouped by Cabinet department containing Day-One Executive Order drafts and Tier 2 APA rulemaking instructions.
+All downstream consuming systems, standalone distribution databases, and presidential transition team blueprints are complete, verified, and pushed to remotes:
+
+### 5.1. Standalone Web Explorer & FastAPI Service
+- **Service Entry Point:** [`api/server.py`](file:///C:/Users/kjhgf/.gemini/antigravity/scratch/trump-damage-db/api/server.py)
+- **Interactive UI:** [`api/static/index.html`](file:///C:/Users/kjhgf/.gemini/antigravity/scratch/trump-damage-db/api/static/index.html)
+- **CLI Launcher:** `python cli.py serve --port 8000`
+- **Capabilities:**
+  - Real-time search across 8,273 canonical events powered by SQLite FTS5.
+  - Multi-dimensional filtering by policy domain (12 canonical domains), severity (Levels 1–5), and reversal tier (Tiers 1–5).
+  - Dedicated interactive tabs for Lethal Toll (277 casualties), Federal Litigation Dockets (984 lawsuits), Civil Service/DOGE ($1.325B uncollected fines / 721k workers), and External Tracker Registry (40 trackers).
+  - Modal inspector displaying complete evidentiary narratives, cross-corroborating sources, and tier-by-tier undo mechanisms.
+
+### 5.2. Presidential Transition Team Binders (`firstpub-Platform`)
+Located in [`firstpub-Platform/docs/1. Preface End facism/keep track/`](file:///C:/Users/kjhgf/.gemini/antigravity/scratch/firstpub-Platform/docs/1.%20Preface%20End%20facism/keep%20track/):
+1. **13 Policy Domain Dossiers:** [`domain_dossiers/`](file:///C:/Users/kjhgf/.gemini/antigravity/scratch/firstpub-Platform/docs/1.%20Preface%20End%20facism/keep%20track/domain_dossiers/):
+   - Detailed dossiers with high-severity harms, evidentiary summaries, and five-tier undo strategies for every single domain (Immigration, Environment, Civil Service, Healthcare, Corporate Accountability, National Security, Justice, Economy, Intelligence, Education, Democracy, Labor).
+2. **Day-One Omnibus Executive Orders:** [`day_one_omnibus_executive_orders.md`](file:///C:/Users/kjhgf/.gemini/antigravity/scratch/firstpub-Platform/docs/1.%20Preface%20End%20facism/keep%20track/transition_blueprints/day_one_omnibus_executive_orders.md):
+   - Executive Orders 1 through 5 ready for signature at 12:01 PM on Inauguration Day, covering Schedule F revocation, DOGE nullification, environmental baseline restoration, lethal pursuit prohibition, EMTALA preemption, and corporate fine recovery.
+3. **Agency Rulemaking & Judicial Reversal Manual:** [`agency_rulemaking_and_judicial_reversal_manual.md`](file:///C:/Users/kjhgf/.gemini/antigravity/scratch/firstpub-Platform/docs/1.%20Preface%20End%20facism/keep%20track/transition_blueprints/agency_rulemaking_and_judicial_reversal_manual.md):
+   - Comprehensive operational manual detailing specific CFR citations, APA notice-and-comment timelines, Solicitor General confession-of-error instructions for 984 lawsuits, and recoupment pathways for $1.325B in quashed penalties across EPA, HHS, DHS, DOJ, DOL, USDA, Interior, Treasury, and Education.
+
+### 5.3. Standalone Database Distribution
+- **Consolidated Catalog:** [`consolidated_damage_catalog.db`](file:///C:/Users/kjhgf/.gemini/antigravity/scratch/trump-damage-db/db/consolidated_damage_catalog.db) (23.9 MB, tracked via Git LFS).
+- Contains deduplicated master events, FTS5 full-text search indexes, lethal casualty logs, litigation dockets, and DOGE actions in a single, portable distribution file.
